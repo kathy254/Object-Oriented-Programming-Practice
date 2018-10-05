@@ -7,7 +7,7 @@ class Question():
 		self.description = description
 		self.questionID = questionID
 
-	def _save(self, question):
+	def _postQuestion(self, question):
 		self.allQuestions.append(question)
 
 		return dict(
