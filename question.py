@@ -7,7 +7,7 @@ class Question():
 		self.description = description
 		self.questionID = questionID
 
-	def _save(self, question):
+	def _postQuestion(self, question):
 		self.allQuestions.append(question)
 
 		return dict(
@@ -16,8 +16,10 @@ class Question():
 			questionID = Question.allQuestions.append[0].questionID
 			)
 
-	def _delete(self, question):
+	def _deleteQuestion(self, question):
 		self.allQuestions.remove(question)
+
+
 
 
 
