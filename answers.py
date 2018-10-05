@@ -6,7 +6,7 @@ class Answers():
 		self.title = title
 		self.description = description
 
-	def _comment(self, answer):
+	def _postComment(self, answer):
 		self.contributorAnswers.append(answer)
 
 		return dict(
