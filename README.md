@@ -11,9 +11,11 @@ Authors
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
+
 Acknowledgements
-Team Rango
 
-Head First Labs
+- Team Rango
 
-Andela Workshops
+- Head First Labs
+
+- Andela Workshops
